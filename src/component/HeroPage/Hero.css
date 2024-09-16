@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600&display=swap");
+
+.hero {
+    background-color: rgb(33, 104, 133);
+
+}
+
+.container-hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.card {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.hero-title h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: white;
+    font-weight: 700;
+}
+
+.card-item {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.card-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.img-compt {
+    justify-content: center;
+}
+
+.img-compt img {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.text-compt {
+    color: white;
+    justify-content: center;
+}
+
+.text-compt h3 {
+    margin-bottom: 1rem;
+    font-size: 27px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.text-compt .dibaca p {
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.dibaca p span {
+    color: rgb(255, 209, 23);
+}
+
+.button {
+    margin-top: 3rem;
+   z-index: 10;
+   cursor: pointer;
+}
+
+.button a {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(237, 150, 0);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 848px) {
+    .card-item {
+       flex-direction: column;
+    }
+    
+    .card-wrap {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .button {
+        margin-top: 2.5rem;
+    }
+  
+    .text-compt .dibaca p {
+        margin-top: 1rem;
+    }
+    
+}
+
+
+
+
+

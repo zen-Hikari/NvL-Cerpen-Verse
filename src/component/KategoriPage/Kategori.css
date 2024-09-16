@@ -1,0 +1,52 @@
+.kategori {
+    margin-top: 5rem;
+}
+
+.icon-title h1 {
+    font-weight: 500;
+}
+
+.kategori-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+}
+
+.kategori .icon {
+    margin: 0 auto;
+    margin-top: 3rem;
+    /* justify-content: center; */
+    cursor: pointer;
+}
+
+ .icon .icons {
+    font-size: 50px;
+    padding: 9px 20px;
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    margin-left: 1rem;
+    border-radius: 50px;
+    color: rgb(95, 95, 95);
+    background-color:  rgb(215, 215, 215);
+}
+
+.icon .triller {
+    margin-left: 0.5rem;
+}
+
+.icon .desc {
+    margin-top: 0.5rem;
+}
+
+.icon .desc p {
+    text-align: center;
+    font-size: 20px;
+    background: none;
+}
+
+@media screen and (max-width: 514px) {
+    .kategori-wrap {
+        flex-direction: column;
+    }
+}

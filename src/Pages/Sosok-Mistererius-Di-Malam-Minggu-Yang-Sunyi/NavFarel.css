@@ -1,0 +1,37 @@
+ .logo h1 {
+    font-size: 35px;
+    font-family: "Sevillana", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+
+    .hamburger {
+        display: block;
+    }
+
+    nav .links-menu {
+        display: none;
+        position: absolute;
+        top: 4.9rem;
+        right: 0.0rem;
+        flex-direction: column;
+        gap: 40px;
+        background-color: rgb(0, 0, 0);
+        padding-top: 10rem;
+        padding-bottom: 30rem;
+        padding-left: 1rem;
+        padding-right: 9rem;
+        z-index: 3;
+    }
+
+    nav .links-menu.active {
+       display: flex;
+    }
+
+}
