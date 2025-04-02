@@ -2,8 +2,8 @@ import Asmara from './assets/asmara.jpg'
 import Batak from './assets/batak.jpg'
 import Bilionere from './assets/bilionere.jpg'
 import Duri from './assets/duri.jpg'
-import Prahara from './assets/Prahara.jpg'
-import Second from './assets/Second.jpg'
+import Prahara from './assets/prahara.jpg'
+import Second from './assets/second.jpg'
 
 
 function TamatPage() {
